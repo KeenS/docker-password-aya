@@ -1,0 +1,2 @@
+[workspace]
+members = ["docker-password-aya", "docker-password-aya-common", "xtask"]
