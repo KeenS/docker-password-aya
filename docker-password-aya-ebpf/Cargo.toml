@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2018"
 
 [dependencies]
-aya-bpf = { git = "http://github.com/aya-rs/aya", branch = "main" }
+aya-bpf = { git = "http://github.com/aya-rs/aya", commit = "923cd9b7679ee03d0ebe884588eb0a8f984b65f0" }
 docker-password-aya-common = { path = "../docker-password-aya-common" }
 
 [[bin]]

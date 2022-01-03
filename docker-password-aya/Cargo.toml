@@ -5,7 +5,7 @@ edition = "2018"
 publish = false
 
 [dependencies]
-aya = { git = "https://github.com/aya-rs/aya", branch="main", features=["async_tokio"] }
+aya = { git = "https://github.com/aya-rs/aya", commit="923cd9b7679ee03d0ebe884588eb0a8f984b65f0", features=["async_tokio"] }
 docker-password-aya-common = { path = "../docker-password-aya-common", features=["user"] }
 anyhow = "1.0.42"
 bytes = "1"
